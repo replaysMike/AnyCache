@@ -3,8 +3,8 @@ AnyCache is a modified clone of [LazyCache](https://github.com/alastairtree/Lazy
 
 ## Installation
 
-```ps
-> Install-Package AnyCache
+```Powershell
+PM> Install-Package AnyCache
 ```
 
 ## Getting Started
