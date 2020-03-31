@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net461;net462;net47;net48</TargetFrameworks>
+    <Authors>Michael Brown</Authors>
+    <Company>Refactor Software</Company>
+    <Description>A .net caching library based on original LazyCache implementation</Description>
+    <RepositoryUrl>https://github.com/replaysMike/AnyCache</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/replaysMike/AnyCache</PackageProjectUrl>
+    <PackageTags>cache caching asp.net core dotnet-standard refactor software michael brown</PackageTags>
+    <PackageReleaseNotes>A .net caching library based on original LazyCache implementation</PackageReleaseNotes>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="3.1.3" />
+  </ItemGroup>
+
+</Project>
