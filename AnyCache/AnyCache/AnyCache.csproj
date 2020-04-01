@@ -1,7 +1,7 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;net461;net462;net47;net48</TargetFrameworks>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <Authors>Michael Brown</Authors>
     <Company>Refactor Software</Company>
     <Description>A .net caching library based on original LazyCache implementation</Description>
@@ -10,6 +10,7 @@
     <PackageTags>cache caching asp.net core dotnet-standard refactor software michael brown</PackageTags>
     <PackageReleaseNotes>A .net caching library based on original LazyCache implementation</PackageReleaseNotes>
     <Version>1.0.0</Version>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
